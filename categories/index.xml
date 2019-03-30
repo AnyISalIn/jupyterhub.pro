@@ -10,5 +10,23 @@
 	<atom:link href="https://jupyterhub.pro/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Jupyter</title>
+      <link>https://jupyterhub.pro/categories/jupyter/</link>
+      <pubDate>Sat, 30 Mar 2019 20:18:04 +0800</pubDate>
+      
+      <guid>https://jupyterhub.pro/categories/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://jupyterhub.pro/categories/python/</link>
+      <pubDate>Sat, 30 Mar 2019 20:18:04 +0800</pubDate>
+      
+      <guid>https://jupyterhub.pro/categories/python/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

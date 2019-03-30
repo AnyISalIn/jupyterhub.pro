@@ -11,5 +11,14 @@
 	<atom:link href="https://jupyterhub.pro/pricing/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Basic</title>
+      <link>https://jupyterhub.pro/pricing/basic/</link>
+      <pubDate>Sat, 30 Mar 2019 20:26:00 +0800</pubDate>
+      
+      <guid>https://jupyterhub.pro/pricing/basic/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, massa ut pretium congue, enim neque condimentum turpis, at aliquam neque lacus facilisis augue. Nam luctus molestie fringilla. Proin nec metus diam. Nulla sit amet ante rhoncus erat malesuada eleifend. Nunc vitae ex luctus, euismod lacus aliquet, elementum sem. Sed in ultricies nisl, sit amet imperdiet augue. Praesent leo neque, tincidunt quis venenatis ac, aliquet convallis lacus. Quisque luctus fringilla tellus sit amet eleifend.</description>
+    </item>
+    
   </channel>
 </rss>
