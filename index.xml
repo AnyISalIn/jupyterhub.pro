@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>First_blog</title>
+      <title>first blog</title>
       <link>https://jupyterhub.pro/blog/first_blog/</link>
       <pubDate>Sat, 30 Mar 2019 20:18:04 +0800</pubDate>
       
@@ -29,6 +29,15 @@
       <description> test
  test 1 test 2 test 3 test 4
 通过Jupyter Notebook提升学校效率  </description>
+    </item>
+    
+    <item>
+      <title>JupyterHub</title>
+      <link>https://jupyterhub.pro/work/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jupyterhub.pro/work/basic/</guid>
+      <description>浏览器访问 对于教师和学生无须安装任何软件，只需要浏览器。所以任何支持标准Web浏览器的设备都可以访问，例如笔记本电脑或者iPad</description>
     </item>
     
   </channel>

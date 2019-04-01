@@ -44,7 +44,14 @@
           
 
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/">主页</a>
+              </li>
+              
+            
+          
+
+              <li class="nav-item">
+                <a class="nav-link" href="/work">功能介绍</a>
               </li>
               
             
@@ -153,6 +160,44 @@
 
 	
 		
+
+<section class="bg-warning py-5">
+
+  <h2 class="text-center ">常见问题</h2>
+  <p class="text-muted pb-5"></p>
+
+  <div class="row no-gutters justify-content-center">
+    <div class="col-lg-6 col-md-8 col-11">
+        <div class="accordion" id="accordionExample">
+          
+            <div class="bg-white shadow rounded mb-3">
+              <div class="" id="heading%E6%98%AF%E5%90%A6%E6%8F%90%E4%BE%9B%E8%AF%95%E7%94%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83">
+                <h5 class="mb-0">
+                  
+                  <a class="p-3 d-block collapsed h5"  data-toggle="collapse" data-target="#collapse%E6%98%AF%E5%90%A6%E6%8F%90%E4%BE%9B%E8%AF%95%E7%94%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83" aria-expanded="true" aria-controls="collapse%E6%98%AF%E5%90%A6%E6%8F%90%E4%BE%9B%E8%AF%95%E7%94%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83">
+                    是否提供试用测试环境
+                    <span class="float-right"></span>
+                  </a>
+                </h5>
+              </div>
+          
+              <div id="collapse%E6%98%AF%E5%90%A6%E6%8F%90%E4%BE%9B%E8%AF%95%E7%94%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83" class="collapse" aria-labelledby="heading%E6%98%AF%E5%90%A6%E6%8F%90%E4%BE%9B%E8%AF%95%E7%94%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83" data-parent="#accordionExample">
+                <div class="card-body text-muted">
+                  我们可提供7天的试用环境。试用环境仅包括托管的公有云模式，不支持在您的服务器上部署。关于具体测试内容请联系我们。
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+  </div>
+</section>
+
+
+	
+
+	
+		
 <section id="pricing" class="py-5">
   <div class="container text-center">
     <h2 class="pt-5 h2">价格</h2>
@@ -164,7 +209,7 @@
               <div class="header bg-light p-3 text-dark">
                 <h5 class="h5 title">自管理</h5>
                 <span class="price my-3">¥30起</span>
-                <a href="https://jupyterhub.pro/" class="btn btn-success">联系我们</a>
+                <a href="#contact" class="btn btn-success">联系我们</a>
               </div>
               <div class="body p-3">
                 <div class="features text-left">
@@ -177,6 +222,11 @@
                       <div class="my-2 text-muted">
                         <span><i class="fa fa-check text-success"></i></span>
                         <span>提供邮件支持</span>
+                      </div>
+                    
+                      <div class="my-2 text-muted">
+                        <span><i class="fa fa-check text-success"></i></span>
+                        <span>可选的支持服务</span>
                       </div>
                     
                       <div class="my-2 text-muted">
@@ -195,7 +245,7 @@
               <div class="header bg-light p-3 text-dark">
                 <h5 class="h5 title">托管</h5>
                 <span class="price my-3">¥90</span>
-                <a href="https://jupyterhub.pro/" class="btn btn-success">联系我们</a>
+                <a href="#contact" class="btn btn-success">联系我们</a>
               </div>
               <div class="body p-3">
                 <div class="features text-left">
@@ -226,7 +276,7 @@
               <div class="header bg-light p-3 text-dark">
                 <h5 class="h5 title">企业</h5>
                 <span class="price my-3">面议</span>
-                <a href="https://jupyterhub.pro/" class="btn btn-success">联系我们</a>
+                <a href="#contact" class="btn btn-success">联系我们</a>
               </div>
               <div class="body p-3">
                 <div class="features text-left">
@@ -267,6 +317,7 @@
      
   }
 </style>
+
 	
 
 	
@@ -275,7 +326,7 @@
 <section id="contact" class="contact mt-5 p-3 p-lg-5 p-md-5">
 	<div class="container">
 
-		<h2 class="h2 my-5 text-center">Contact</h2>
+		<h2 class="h2 my-5 text-center">联系我们</h2>
 
 		<form action="https://formspree.io/" method="POST">
 			<div class="row justify-content-md-center">
@@ -294,7 +345,7 @@
 						<div class="row">
 							<div class="col-12 col-lg-6 col-md-6">
 								<div class="form-group">
-									<label>Name</label>
+									<label>姓名</label>
 									<input type="text" name="Name" class="form-control" placeholder="Name">
 								</div>
 							</div>
@@ -307,13 +358,13 @@
 	
 							<div class="col-12">
 								<div class="form-group">
-									<label>Message</label>
+									<label>留言</label>
 									<textarea placeholder="Message" name="Message" rows="5" class="form-control"></textarea>
 								</div>
 							</div>
 	
 							<div class="col-12">
-									<button type="submit" class="btn btn-primary">Submit</button>
+									<button type="submit" class="btn btn-primary">提交</button>
 							</div>
 	
 						</div>
@@ -323,6 +374,7 @@
 
 	</div>	
 </section>
+
 	
 
 
@@ -344,7 +396,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script defer src="https://jupyterhub.pro/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <script src="https://jupyterhub.pro/js/script.js"></script>
   </body>
 </html>
