@@ -3,20 +3,20 @@
 <html lang="en-US">
   <head>
     <title>
- 			Jupyter Lab  &middot; JupyterHub Pro
+ 			功能列表  &middot; JupyterHub Pro
     </title>
     <meta charset="utf-8">
-    <link rel="canonical" href="https://jupyterhub.pro/work/basic/">
+    <link rel="canonical" href="https://jupyterhub.pro/features/">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700" rel="stylesheet">
     <link href="https://jupyterhub.pro/favicon.png" rel="icon" />
 
     
-    <meta name="og:title" content="Jupyter Lab"/>
-	<meta name="og:url" content="https://jupyterhub.pro/work/basic/"/>
+    <meta name="og:title" content="功能列表"/>
+	<meta name="og:url" content="https://jupyterhub.pro/features/"/>
 	
-	<meta name="og:image" content="https://jupyterhub.pro/jupyterlab.png"/>
+	<meta name="og:image" content="https://jupyterhub.pro/hublogo.svg"/>
 	
 	
 	<meta name="og:site_name" content="JupyterHub Pro"/>
@@ -68,20 +68,15 @@
 
 
 
+<link rel="stylesheet" href="https://jupyterhub.pro/css/features.css">
 
-<section id="work" class="pb-5">
-  <div class="container text-center">
-    <h1 class="h1 my-5">Jupyter Lab</h1>
-  </div>
+<section id="features" class="pb-5">
+
 
   <div class="bg-light p-4 text-center">
-      <img class="rounded shadow" src="https://jupyterhub.pro/images/work/jupyterlab.png" style="max-width:100%" alt="">
+      <img class="rounded shadow" src="https://jupyterhub.pro/images/features/hublogo.svg" style="max-width:30%" alt="">
       <div class="mt-4">
-        <span class="mr-2 text-secondary">Share</span>
-        <a target="_blank" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjupyterhub.pro%2fwork%2fbasic%2f" class="btn btn-filled btn-sm btn-facebook mr-1"><i class="fab fa-facebook"></i></a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fjupyterhub.pro%2fwork%2fbasic%2f&text=Jupyter%20Lab" class="btn btn-filled btn-sm btn-twitter mr-1"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="http://pinterest.com/pin/create/link/?url=https%3a%2f%2fjupyterhub.pro%2fwork%2fbasic%2f" class="btn btn-filled btn-sm btn-pinterest mr-1"><i class="fab fa-pinterest"></i></a>
-        <button onclick="copylink('https:\/\/jupyterhub.pro\/work\/basic\/')" class="btn btn-sm btn-outline-white"><i class="fa fa-link"></i> Copy Link</button>
+        <button onclick="copylink('https:\/\/jupyterhub.pro\/features\/')" class="btn btn-sm btn-outline-white"><i class="fa fa-link"></i> 复制链接</button>
       </div>
       
     </div>
@@ -93,11 +88,50 @@
     <div style="max-width: 700px; width: 100%;" class="m-auto pt-4 text-left">
       
 
-<h2 id="浏览器访问">浏览器访问</h2>
+<h2 id="通过浏览器访问">通过浏览器访问</h2>
 
-<p>对于教师和学生无须安装任何软件，只需要浏览器。所以任何支持标准Web浏览器的设备都可以访问，例如笔记本电脑或者iPad</p>
+<p>您的学生只需要一个Web浏览器即可访问您的JupyterHub。 这意味着他们不需要在他们的设备上安装任何东西。 学生可以在教室或家中使用您的中心来完成实验和作业。 让您和您的学生使用您现有的设备。</p>
 
-<p><a href="https://mybinder.org/v2/gist/yanyao/75e82ebb774f45918cf58454bb867810/master"><img src="https://img.shields.io/badge/JupyterHub%20Pro-Launch-green.svg" alt="JupyterHub Pro" /></a></p>
+<h2 id="预装了通用数据科学库">预装了通用数据科学库</h2>
+
+<p>对于常见的用于处理通用数据科学的<strong>Python</strong>库，我们已经预装在模版中，例如<strong>Tensorflow</strong>,
+<strong>Caffe2</strong>, <strong>Pandas</strong>, <strong>SciPy</strong>
+等。同时对于<strong>R</strong>语言的环境，我们同时也预装<strong>R</strong>语言环境相关的库文件。您和您的学生不必再为各个库之间的依赖和升级而花费时间。</p>
+
+<h2 id="集中数据存储">集中数据存储</h2>
+
+<p>让您轻松与学生共享数据集和文件。 无须再通过U盘与学生交换数据。</p>
+
+<h2 id="由开源jupyter项目提供支持">由开源Jupyter项目提供支持</h2>
+
+<p>我们提供的Jupyter项目以及相关组件均来自开源社区，这意味您不用担心_商家绑定_。并且可根据开源协议，更改和集成您自己的代码。</p>
+
+<h2 id="完整的jupyter生态系统支持">完整的Jupyter生态系统支持</h2>
+
+<p>无论是Jupyter Notebook <strong>插件</strong>
+或者支持的编程语言<strong>KernelSpec</strong>，您可以轻松的启用或者关闭。</p>
+
+<h2 id="nbgarder集成">NBGarder集成</h2>
+
+<p>对于教学场景中的作业和考试，可以通过我们集成的<strong>NBGrader</strong>
+来支持。您可以通过<strong>NBGrader</strong>
+设计、发布作业或者考试，同时也通过<strong>NBGarder</strong>实现自动评分的功能。</p>
+
+<h2 id="远程支持操作模式">远程支持操作模式</h2>
+
+<p>您可以通过您自身的账号远程进入每个学生的Jupyter环境中，从而快速查看学生端状态。</p>
+
+<h2 id="私有存储空间">私有存储空间</h2>
+
+<p>每个学生独立的存储磁盘，保证其自身的文档、数据可持续化存储。</p>
+
+<h2 id="gpu管理支持">GPU管理支持</h2>
+
+<p>支持GPU管理策略，灵活管理GPU资源。</p>
+
+<h2 id="多种认证机制">多种认证机制</h2>
+
+<p>可与您学校的集中认证集成，也可以使用我们提供的认证系统，甚至可以可与第三方公共服务认证系统集成，例如<strong>github</strong>等。</p>
 
     </div>
 
@@ -141,3 +175,4 @@ function copylink(link){
     <script src="https://jupyterhub.pro/js/script.js"></script>
   </body>
 </html>
+
